@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+body {
+  margin: 0 auto;
+  height: 500px;
+  display: flex;
+  align: center;
+  justify-content: center;
+  font-size: 20px;
+  background: #D0B69F;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  block-size: fit-content;
+}
+
+.container {
+  margin: 150px;
+  padding: 2rem;
+  width: 400px;
+  max-width: 400px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  background: white;
+  border-radius: 50px;
+}
+
+h1{
+  margin: 10px;
+}
+
+input[type=submit] {
+  border-radius: 15px;
+  background-color: #835C49;
+  border: none;
+  color: white;
+  margin: 8px 2px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type=text]{
+  font-family: 'Poppins', sans-serif;
+  width: 350px;
+  border-radius: 15px;
+  margin: 8px 2px;
+  padding: 10px 16px;
+}
+
+.btn{
+  width: 150px;
+  height: 43px;
+  position: relative;
+  margin: 8px 2px;
+  padding: 10px 15px;
+  font-size: 15px;
+  line-height: 1.5;
+  border: 0;
+  overflow: hidden;
+  transition: 0.2s;
+  border-radius: 15px;
+}
+
+.btn input[type="file"]{
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  transform: scale(3);
+  opacity: 0;
+}
+
+.btn:hover{
+  background: grey;
+}
